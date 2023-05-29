@@ -4,11 +4,7 @@ class BooksController < ApplicationController
   around_action :action_logger, only: [:destroy]
   
   def show
-    @book = Book.find(params[:id]) #
-    respond_to do |format| #
-      format.html
-      format.json
-    end
+    render :show
   end
   
   # destroy メソッドを追加

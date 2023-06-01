@@ -18,5 +18,6 @@ module BookAdmin
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.hosts << "4b0506e3bf9f4d84a2366f8dcb5b8fea.vfs.cloud9.ap-northeast-1.amazonaws.com"
   end
 end

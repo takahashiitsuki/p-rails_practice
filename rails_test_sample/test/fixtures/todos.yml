@@ -9,3 +9,7 @@ two:
   title: MyString
   string: MyString
   body: MyText
+
+todo:
+  title: sample
+  body: Todo Body
